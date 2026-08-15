@@ -93,6 +93,60 @@ To create an AI system that acts as a reliable personal assistant, capable of un
 
 Currently learning Python and Object-Oriented Programming while building the skills required to develop Project AURA.
 
+## Current Progress
+
+### Completed
+
+- Python fundamentals
+- Object-Oriented Programming fundamentals
+- Student Manager V1
+- Student Manager V2
+- Basic Git and GitHub workflow
+
+### Student Manager
+
+Student Manager is an early component of Project AURA designed to
+organize student information and demonstrate the foundations of
+AURA's future personal-management system.
+
+#### Version 1
+
+Student Manager V1 is a basic student-record management system.
+
+#### Version 2
+
+Student Manager V2 introduces an object-oriented structure with:
+
+- Student objects
+- Subject objects
+- Task objects
+- Schedule objects
+- Test records
+- Subject progress and mastery
+- Relationships between different objects
+
+---
+
+## Project Structure
+
+```text
+Project-AURA/
+│
+├── Student_Manager/
+│   ├── Version_1/
+│   │   ├── README.md
+│   │   └── student_manager_v1.py
+│   │
+│   └── Version_2/
+│       ├── README.md
+│       └── student_manager_v2.py
+│
+├── README.md
+├── LICENSE
+└── .gitignore
+
+```
+
 ## Intelligent Decision Support
 
 Project AURA will not simply answer questions.
