@@ -13,7 +13,7 @@ for task in tasks:
     else:
         print(f"Task '{task['topic']}' is pending.")
 
-print("High-priority pendingtasks:", sum(1 for t in tasks if t["priority"] == "High" and not t["completed"]))
+print("High-priority pending tasks:", sum(1 for t in tasks if t["priority"] == "High" and not t["completed"]))
 for task in tasks:
     if task["priority"] == "High" and not task["completed"]:
         print("High-priority pending task:",  task["topic"])
