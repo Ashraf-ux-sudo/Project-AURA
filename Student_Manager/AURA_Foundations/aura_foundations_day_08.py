@@ -6,7 +6,8 @@ def main():
     memory = load_memory()
     while True:
         command = input("Enter a command (hello/status/whoami/help/exit): ")
-        if command.lower().strip() == "exit":
+        command = command.lower().strip()
+        if command == "exit":
             print("Exiting AURA. Goodbye!")
             break
         response = process_command(command, memory)
